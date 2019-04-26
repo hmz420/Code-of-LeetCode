@@ -5,7 +5,7 @@
 
 ## Structure
 ### Method
-* Diffirent kinds of feasible solutions are available here. You could try diversity ways to solve the same question and come up with your own new method!
+* Diffirent kinds of feasible solutions are available here. You could try more new ways to solve the same question and come up with your own new method!
 ### Note
 * Here are some valuable points of CS knowledge and conclusion for programming skills.
 ### Code
