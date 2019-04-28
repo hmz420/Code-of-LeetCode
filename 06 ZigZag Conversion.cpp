@@ -1,9 +1,9 @@
-/*
+ï»¿/*
 Method:
-  ±©Á¦½â·¨£º½«×ÖÄ¸°´ÕÕZÅÅÁÐ£¬»áÁ¬×ÅµØn¸öÊý×é³ÉÒ»¸öÖÜÆÚ£¬ÄÇÃ´Î§ÈÆ×ÅÕâ¸öÖÜÆÚÕ¹¿ª£¬¼Ç×¡×îºóÒ»¸öÖÜÆÚµØÊý²»ÖªµÀÓÐ¶àÉÙ£¬ËùÒÔ¿ÉÒÔ¶Ô×îºóÒ»¸öÖÜÆÚµ¥¶ÀÉèÖÃÉ¸Ñ¡Ìõ¼þ
+  æš´åŠ›è§£æ³•ï¼šå°†å­—æ¯æŒ‰ç…§ZæŽ’åˆ—ï¼Œä¼šè¿žç€åœ°nä¸ªæ•°ç»„æˆä¸€ä¸ªå‘¨æœŸï¼Œé‚£ä¹ˆå›´ç»•ç€è¿™ä¸ªå‘¨æœŸå±•å¼€ï¼Œç”±äºŽæœ€åŽä¸€ä¸ªå‘¨æœŸçš„æ•°çš„æƒ…å†µä¸å®šï¼Œæ‰€ä»¥å¯ä»¥å¯¹æœ€åŽä¸€ä¸ªå‘¨æœŸå•ç‹¬è®¨è®ºï¼›
 
 Note:
-  for(int i=0; i<¡­; j++)Õâ¸ö½á¹¹ÀïÃæ£¬²»½öµÚÒ»¸öÎ»ÖÃÄÜ¹»Ìî±ðµÄ£¬µÚ¶þ¸ö¿ÕµÄÏÞÖÆÌõ¼þÒ²¿ÉÒÔÓÐ¶à¸ö
+  for(int i=0; i<â€¦; j++) è¿™ä¸ªç»“æž„é‡Œé¢ï¼Œä¸ä»…ç¬¬ä¸€ä¸ªä½ç½®èƒ½å¤Ÿå¡«åˆ«çš„ï¼Œç¬¬äºŒä¸ªç©ºçš„é™åˆ¶æ¡ä»¶ä¹Ÿå¯ä»¥æœ‰å¤šä¸ªï¼›
 */
 
 class Solution {
@@ -16,6 +16,7 @@ public:
 			int n = 2 * numRows - 2;
 			int l = s.length();
 			int cycle = l / n;
+
 			for (int i = 0; i < numRows; ++i)
 			{
 				if (i == 0 || i == numRows - 1)
@@ -44,6 +45,7 @@ public:
 				}
 			}
 		}
+
 		return res;
 	}
 };
