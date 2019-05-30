@@ -1,7 +1,7 @@
 # Code-of-LeetCode #
 
 ## Introduction
-* In this repository, you could see many .cpp files that are all the solutions for algorithm questions in LeetCode. These solutions are designed for efficiency from the perspective of time complexity.
+* In the repository, you could see many .cpp files that are all the solutions for algorithm questions in LeetCode. These solutions are designed for efficiency from the perspective of time complexity.
 
 ## Structure
 ### Method
