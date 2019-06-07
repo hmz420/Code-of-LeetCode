@@ -33,7 +33,6 @@ public:
             }
             res = res -> next;
         }
-        
         res -> next = l1? l1 : l2;
         return mid -> next;
     }
